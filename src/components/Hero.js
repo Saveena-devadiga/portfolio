@@ -4,13 +4,13 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center
-      bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600
-      text-white overflow-hidden px-6"
+      className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 text-white overflow-hidden px-6"
+
     >
       {/* Glow blobs */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-white/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 right-10 w-72 h-72 bg-pink-400/20 rounded-full blur-3xl" />
+<div className="absolute bottom-20 right-10 w-72 h-72 bg-pink-400/20 rounded-full blur-3xl" />
+
 
       {/* Glass Card */}
       <motion.div
