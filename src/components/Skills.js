@@ -2,23 +2,39 @@ import { motion } from "framer-motion";
 
 function Skills() {
   const skillGroups = [
-    {
-      title: "Programming Languages",
-      skills: ["Java", "Python", "PHP", "C++"]
-    },
-    {
-      title: "Web Technologies",
-      skills: ["HTML", "CSS", "JavaScript", "React.js", "Node.js"]
-    },
-    {
-      title: "Databases",
-      skills: ["MySQL", "Oracle (SQL & PL/SQL)"]
-    },
-    {
-      title: "Tools & Platforms",
-      skills: ["Git & GitHub", "Canva", "Power BI", "MS Office"]
-    }
-  ];
+  {
+    title: "Programming Languages",
+    skills: ["Java", "Python", "PHP", "C++"]
+  },
+  {
+    title: "Web Technologies",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "FastAPI"
+    ]
+  },
+  {
+    title: "Databases",
+    skills: [
+      "MySQL",
+      "MongoDB"
+    ]
+  },
+  {
+    title: "Tools & Platforms",
+    skills: [
+      "Git & GitHub",
+      "Canva",
+      "Power BI",
+      "MS Office",
+      "WordPress"
+    ]
+  }
+];
 
   return (
     <section

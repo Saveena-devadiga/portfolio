@@ -2,14 +2,22 @@ import { motion } from "framer-motion";
 
 function Projects() {
   const mainProjects = [
-    {
-      title: "OrgaNest – Event Management System",
-      desc: "Full-stack event management web application with booking and admin features.",
-      tech: "React · Node.js · Express · MySQL",
-      github: "https://github.com/Saveena-devadiga/organest",
-      image: "organest.png"
-    }
-  ];
+  {
+    title: "OrgaNest – Event Management System",
+    desc: "Full-stack event management web application with booking and admin features.",
+    tech: "React · Node.js · Express · MySQL",
+    github: "https://github.com/Saveena-devadiga/organest",
+    image: "organest.png"
+  },
+
+  {
+    title: "Task Dashboard System",
+    desc: "Task management dashboard where users can create, update, and track tasks with a clean interface.",
+    tech: "React · Tailwind CSS · JavaScript ·Python(FastAPI)· MongoDB",
+    github: "https://github.com/saveena-devadiga/task-dashboard",
+    image: "taskdashboard.png"
+  }
+];
 
   const internshipProjects = [
     {
